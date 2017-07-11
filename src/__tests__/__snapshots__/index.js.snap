@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer should compute the operations 1`] = `2`;
+
+exports[`redux-reseter reset creates a valid action 1`] = `
+Object {
+  "payload": Array [
+    Object {
+      "type": "ADD",
+    },
+    Object {
+      "type": "SUB",
+    },
+    Object {
+      "type": "SUB",
+    },
+  ],
+  "type": "@REDUX-RESET.RESET",
+}
+`;
+
+exports[`redux-reseter reseter should wait for a reset action and reset the state 1`] = `0`;
